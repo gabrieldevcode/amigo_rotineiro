@@ -110,3 +110,48 @@ Lembre-se: se algo não sair perfeito, conte comigo para ajustar e evoluir — a
 Vamos nessa? 🚀  
 
 — Seu Amigo Rotineiro
+
+
+
+
+
+
+
+
+
+
+
+
+
+Este projeto ainda está em fase inicial, e por isso o processo de acesso não é dos mais simples... **mas confia em mim, quando você consegue rodar tudo, a mágica acontece!** 🌟
+
+---
+
+## 🚀 Como acessar
+
+Para que tudo funcione perfeitamente, você precisará configurar a API do Google Calendar. Siga o passo a passo abaixo com atenção:
+
+1. Acesse o [Google Cloud Console](https://console.cloud.google.com/).
+2. Crie um novo projeto (ou selecione um existente).
+3. No menu de navegação, vá para **"APIs e Serviços" > "Biblioteca"**.
+4. Procure por **"Google Calendar API"** e **ative-a**.
+5. Vá para **"APIs e Serviços" > "Credenciais"**.
+6. Clique em **"+ CRIAR CREDENCIAIS" > "ID do cliente OAuth"**.
+7. Se solicitado, configure a **Tela de consentimento OAuth** (informações básicas são suficientes para uso pessoal).
+8. Escolha **"Aplicativo para computador"** como o tipo de aplicativo.
+9. Dê um nome (exemplo: `AmigoRotineiroPessoal`).
+10. Clique em **"CRIAR"**. Você verá seu ID do cliente e a chave secreta (não precisa anotá-los agora).
+11. Na lista de IDs de cliente OAuth, encontre o que você acabou de criar e clique no ícone de download (seta para baixo) para baixar o arquivo JSON.
+12. **Renomeie o arquivo para `credentials.json` e coloque-o na mesma pasta que o script do Amigo Rotineiro.**
+
+---
+
+## ✅ E pronto!
+
+Se tudo estiver certinho, o script estará pronto para te ajudar a organizar sua rotina de forma mágica e automatizada. ✨
+
+---
+
+## 💡 Dica
+
+Se for sua primeira vez lidando com APIs do Google, não se preocupe! É normal parecer complicado no começo — faz parte da jornada. Com calma e atenção, você chega lá. E o Amigo Rotineiro vai valer o esforço. 😉
